@@ -298,7 +298,6 @@ uint16_t __si_http2_getInt16( char *cBuffer);
 time_t * __si_core__get_start_time();
 uint32_t __si_core__get_start_time_as_u32( uint32_t addseconds);
 void __init_sirik_core();
-int __si_ifname_by_ip( char * ifname, char * ip);
 int __si_ValidateMACAddress( char * macAddress);
 void __si_createLicenseKey( char * macAddress);
 void __si_retrieveLicenseKey( char * base64);
